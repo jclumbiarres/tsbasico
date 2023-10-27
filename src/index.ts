@@ -9,3 +9,4 @@ console.log(todo.completed); // false
 todo.toggle();
 
 console.log(todo.completed); // false
+console.log('hola mundo!');
