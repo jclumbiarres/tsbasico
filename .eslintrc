@@ -11,6 +11,9 @@
       "prettier"  ],
     "rules": {
       "no-console": 1,       // Means warning
+      "no-dupe-else-if": 1,  // Means warning
+      "camelcase": 1,        // Means warning
+      "no-ternary":1,       // Means warning
       "prettier/prettier": ["error", {
         "endOfLine":"auto"
       }]
