@@ -81,3 +81,19 @@ en el archivo .vscode/launch.json está la configuración del debugger.
   ]
 }
 ```
+
+---
+
+- application Este directorio contiene los servicios de aplicación y los objetos de transferencia de datos (DTOs). Los servicios de aplicación son los que coordinan las operaciones de alto nivel que implican a más de una entidad de dominio. Los DTOs son objetos que se utilizan para transferir datos entre procesos o componentes, sin ninguna lógica de negocio.
+
+---
+
+- domain Este directorio contiene las entidades, objetos de valor e interfaces del dominio. Las entidades son los objetos de negocio principales de tu aplicación. Los objetos de valor son objetos inmutables que no tienen una identidad y se distinguen solo por el estado de sus propiedades. Las interfaces del dominio definen las operaciones que se pueden realizar en las entidades y objetos de valor.
+
+---
+
+- infrastructure Este directorio contiene la implementación de los repositorios, servicios y cualquier otra infraestructura necesaria. Los repositorios son los que manejan la persistencia de las entidades. Los servicios de infraestructura pueden ser cualquier cosa que proporcione capacidades técnicas, como el envío de correos electrónicos, la persistencia de datos, etc.
+
+---
+
+- interfaces Este directorio contiene los controladores, rutas y middlewares de la aplicación. Los controladores manejan las solicitudes HTTP y delegan el trabajo a los servicios de aplicación. Las rutas definen las rutas HTTP de tu aplicación. Los middlewares son funciones que tienen acceso al objeto de solicitud, al objeto de respuesta y al siguiente middleware en el ciclo de solicitud/respuesta de la aplicación.
