@@ -1,4 +1,4 @@
-# Ejemplo básico de TS
+# Ejemplo básico de TS - Hexagonal
 
 ---
 
